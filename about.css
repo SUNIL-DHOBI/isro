@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#about-isro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 20px;
+}
+#our-journy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+#journy-left {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#journy-right {
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+#vision-video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#mission-vision {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+#mission {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  text-align: justify;
+  line-height: 1.5;
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+}
+#vision {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  text-align: justify;
+  line-height: 1.5;
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#key-achivement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.achivement-1 {
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 20px;
+  width: 360px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.achivement-1 > img {
+  width: 35px;
+  height: 35px;
+}
+
+#future-work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.future-card {
+  border: 2px solid grey;
+  border-radius: 10px;
+  width: 550px;
+  height: 150px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}

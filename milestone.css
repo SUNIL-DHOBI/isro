@@ -1,0 +1,155 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+
+#milestone {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    background-color: #0a0f1f;
+    padding-top: 10px;
+    row-gap: 10px;
+}
+
+#milestone-desc>h1 {
+   
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+#milestone-desc>p {
+    color: #9ca3af;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+#left-right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 10px;
+
+}
+
+#left {
+    flex-wrap: wrap;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-text {
+    padding: 10px;
+    width: 400px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: baseline;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.icon-text:hover {
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(231, 232, 235);
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: 2px solid white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1x solid white;
+    box-shadow: 0 0 10px rgba(105, 154, 233, 0.945);
+}
+
+
+.date-desc>p {
+
+    line-height: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+#right {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.right-items {
+    width: 500px;
+    height: 500px;
+    line-height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: justify;
+    flex-direction: column;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.right-items:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 4px 12px rgb(246, 246, 248);
+}
+.right-img{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right-img>img {
+    width: 500px;
+    height: 250px;
+}
+
+.right-desc>h2 {
+    font-weight: bold;
+    color: white;
+    
+    font-size: 24px;
+    padding: 10px;
+}
+
+.right-desc>p {
+    font-size: 14px;
+    color: #9ca3af;
+    font-weight: 200;
+    padding: 10px;
+}
